@@ -9,6 +9,7 @@ int main()
     printf("Enter a value:");
     scanf("%d %s", &i, str);    // assigning the inputs to variables "i" and "str"
     printf("\n You entered: %d::::: %s\n",i,str);   // printing variables "i" and "str"
+    // & is used when common type variables are used e.g. floats. not for strings
     
     return 0;
 }
